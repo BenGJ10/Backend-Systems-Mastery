@@ -8,7 +8,11 @@ This folder contains comprehensive resources and tutorials to help you master Gi
     
 - [**Introduction to Git**](Git%20Fundamentals/Introduction%20to%20Git.md)
 
-- [**Adding** and **Committing Changes**](Git%20Fundamentals/Adding%20and%20Committing%20Changes.md)
+- [Important **terminal commands** for Git](Git%20Fundamentals/2.%20Important%20terminal%20commands.md)
+
+- [Git **initial** commands and **workflow**](Git%20Fundamentals/3.%20Git%20initial%20commands%20and%20Workflow.md)
+
+- [**Adding** and **Committing Changes**](Git%20Fundamentals/4.%20Adding%20and%20Committing.md)
 
 ---
 
