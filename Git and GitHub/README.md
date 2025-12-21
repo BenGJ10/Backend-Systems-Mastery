@@ -14,6 +14,14 @@ This folder contains comprehensive resources and tutorials to help you master Gi
 
 - [**Adding** and **Committing Changes**](Git%20Fundamentals/4.%20Adding%20and%20Committing.md)
 
+### [2. Working with Branches](Working%20with%20Branches/)
+
+- [**Introduction to Branches**](Working%20with%20Branches/1.%20Introduction%20to%20Branches.md)
+
+- [**Master branch** and **Head**](Working%20with%20Branches/2.%20The%20master%20branch%20and%20HEAD.md)
+
+- [**Branch commands**](Working%20with%20Branches/3.%20Complete%20branch%20commands.md)
+
 ---
 
 ## How to use this folder
