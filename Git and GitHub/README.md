@@ -28,6 +28,13 @@ This folder contains comprehensive resources and tutorials to help you master Gi
 
 - [Fixing **Merge Conflicts**](Merging%20Branches/Fixing%20Merge%20Conflicts.md)
 
+
+### [4. Other Important Commands](Other%20Important%20Commands/)
+
+- [**Git Diff Overview**](Other%20Important%20Commands/Git%20Diff%20Overview.md)
+
+- [**Stashing Changes**](Other%20Important%20Commands/Stashing%20Changes.md)
+
 ---
 
 ## How to use this folder
