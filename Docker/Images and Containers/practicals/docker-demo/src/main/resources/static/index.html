@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Docker Demo • Spring Boot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 min-h-screen text-white">
+
+<!-- Navbar -->
+<nav class="border-b border-slate-700 px-8 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-semibold tracking-wide">
+        🐳 Docker Demo
+    </h1>
+    <span class="text-sm text-slate-400">
+        Spring Boot • Java
+    </span>
+</nav>
+
+<!-- Main -->
+<main class="max-w-5xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-10">
+
+    <!-- Left Section -->
+    <section>
+        <h2 class="text-4xl font-bold mb-4">
+            Running Java inside Docker
+        </h2>
+        <p class="text-slate-300 mb-6 leading-relaxed">
+            This application demonstrates how a
+            <span class="text-blue-400 font-semibold">Spring Boot</span>
+            backend runs inside a
+            <span class="text-cyan-400 font-semibold">Docker container</span>.
+        </p>
+
+        <ul class="space-y-3 text-slate-300">
+            <li>✅ Java application packaged as a JAR</li>
+            <li>✅ Served on port <span class="font-mono text-white">8080</span></li>
+            <li>✅ Containerized using Docker</li>
+            <li>✅ Production-style backend setup</li>
+        </ul>
+
+        <button
+                onclick="loadInfo()"
+                class="mt-8 bg-blue-600 hover:bg-blue-700 transition px-6 py-3 rounded-lg font-semibold shadow-lg"
+        >
+            Fetch Backend Info
+        </button>
+    </section>
+
+    <!-- Right Section -->
+    <section class="bg-slate-800/60 border border-slate-700 rounded-xl p-6 shadow-xl">
+        <h3 class="text-lg font-semibold mb-4 text-slate-200">
+            Backend Response
+        </h3>
+
+        <pre id="output"
+             class="bg-black/70 text-green-400 text-sm p-4 rounded-lg min-h-[220px] overflow-auto font-mono">
+Waiting for response...
+        </pre>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="text-center text-slate-500 text-sm py-6 border-t border-slate-700">
+    Built with Spring Boot • Java • Docker
+</footer>
+
+<script>
+    function loadInfo() {
+        fetch('/api/info')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('output').textContent =
+                    JSON.stringify(data, null, 2);
+            })
+            .catch(() => {
+                document.getElementById('output').textContent =
+                    'Failed to reach backend';
+            });
+    }
+</script>
+
+</body>
+</html>
