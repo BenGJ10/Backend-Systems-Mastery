@@ -19,6 +19,9 @@ Use this folder to learn the basics of `Docker`,  and master the essential comma
 - [Essential **Docker Commands**](Images%20and%20Containers/2.%20Essential%20Docker%20Commands.md)
 
 - [Understanding **Docker Image** Layers](Images%20and%20Containers/3.%20Understanding%20Docker%20Image%20Layers.md)
+
+- [**Attached** vs **Detached** Mode](Images%20and%20Containers/4.%20Attached%20vs%20Detached%20Mode.md)
+
 ---
 
 ## How to use this folder
