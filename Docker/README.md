@@ -30,6 +30,15 @@ Use this folder to learn the basics of `Docker`,  and master the essential comma
 
 - [**Sharing**, **Pushing**, and **Pulling** Docker Images](Images%20and%20Containers/6.%20Sharing,%20Pushing,%20Pulling%20Images.md)
 
+
+### [Working with Volumes](Volumes/)
+
+- [Overview of **Docker Volumes**](Volumes/Overview%20of%20Volumes.md)
+
+- [**Named Volumes**](Volumes/Named%20Volumes.md)
+
+- [**Bind Mounts**](Volumes/Bind%20Mounts.md)
+
 ---
 
 ## How to use this folder
