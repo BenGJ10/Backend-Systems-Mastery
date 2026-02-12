@@ -31,7 +31,7 @@ Use this folder to learn the basics of `Docker`,  and master the essential comma
 - [**Sharing**, **Pushing**, and **Pulling** Docker Images](Images%20and%20Containers/6.%20Sharing,%20Pushing,%20Pulling%20Images.md)
 
 
-### [Working with Volumes](Volumes/)
+### [3. Working with Volumes](Volumes/)
 
 - [Overview of **Docker Volumes**](Volumes/Overview%20of%20Volumes.md)
 
@@ -40,6 +40,13 @@ Use this folder to learn the basics of `Docker`,  and master the essential comma
 - [**Bind Mounts**](Volumes/Bind%20Mounts.md)
 
 - [**ENVs** and **ARGs** in Dockerfiles](Volumes/ENVs%20and%20ARGs%20in%20Dockerfiles.md)
+
+### [4. Cross Docker Communication](Cross%20Docker%20Communication/)
+
+- [**Docker Communication** Basics](Cross%20Docker%20Communication/Docker%20Communication%20Basics.md)
+
+- [**Docker Networks**](Cross%20Docker%20Communication/Docker%20Networks.md)
+
 
 ---
 
