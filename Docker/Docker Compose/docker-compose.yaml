@@ -1,0 +1,52 @@
+# This is a sample docker-compose file for a simple web application with a database.
+
+# specify docker-compose version
+version: "3.8"
+
+# Define the services that make up the application
+services:
+  database:
+    image: postgres:latest
+    container_name: postgres_db
+    volumes:
+      - db_data:/var/lib/postgresql/data      
+    environment:      
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=password
+    networks:
+      - app_network # Not necessary if all services are on the same network
+  
+  backend:
+    build: ./backend
+    container_name: backend_service
+    depends_on: # Ensures that the backend service starts after the database service is up and running
+      - database
+    environment:
+      - DB_HOST=database
+      - DB_USER=admin
+      - DB_PASSWORD=password
+    networks:
+      - app_network # Not necessary if all services are on the same network
+
+  frontend:
+    build: ./frontend   # assumes you have a Dockerfile inside ./frontend
+    container_name: frontend_service
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000" # Maps port 3000 of the container to port 3000 on the host machine
+    volumes:
+      - ./frontend/src:/app/src # Mounts the source code for live reloading during development
+      - logs:/app/logs # Mounts a named volume for logs
+    networks:
+      - app_network
+
+# Named volumes for persistent data storage
+volumes:
+  db_data:
+  logs:
+
+# Custom network
+networks:
+  app_network:
+    driver: bridge # Using the default bridge network driver

@@ -51,6 +51,12 @@ Use this folder to learn the basics of `Docker`,  and master the essential comma
 
 - [**Docker in Docker**](Cross%20Docker%20Communication/Docker%20in%20Docker.md)
 
+### [5. Docker Compose](Docker%20Compose/)
+
+- [Understanding **Docker Compose**](Docker%20Compose/Understanding%20Docker%20Compose.md)
+
+- [Sample **Docker Compose** File](Docker%20Compose/docker-compose.yaml)
+
 ---
 
 ## How to use this folder
