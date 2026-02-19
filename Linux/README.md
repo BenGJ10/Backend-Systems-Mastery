@@ -34,6 +34,8 @@ Use this folder to learn the basics of ``Linux`, and master the essential comman
 
 - [**Access Control Lists (ACLs)** in Linux](Linux%20Fundamentals/Access%20Control%20Lists%20in%20Linux.md)
 
+- [**Input**, **Output**, **Redirection**, and **Pipes** in Linux](Linux%20Fundamentals/Input%20Output%20Redirection%20and%20Pipes.md)
+
 ---
 
 ## How to use this folder
