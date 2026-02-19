@@ -28,6 +28,8 @@ Use this folder to learn the basics of ``Linux`, and master the essential comman
 
 - [Linux **Permissions**](Linux%20Fundamentals/Linux%20Permissions.md)
 
+- [Changing **Ownership** and **Group**](Linux%20Fundamentals/Changing%20Ownership%20and%20Group.md)
+
 ---
 
 ## How to use this folder
