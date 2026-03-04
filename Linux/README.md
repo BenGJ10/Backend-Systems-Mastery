@@ -49,6 +49,8 @@ Use this folder to learn the basics of `Linux`, and master the essential command
 
 - [Introduction to **Shell Scripting**](Shell%20Scripting/Introduction%20to%20Shell%20Scripting.md)
 
+- [**Key Shell Scripting Concepts**](Shell%20Scripting/Key%20Shell%20Scripting%20Concepts.md)
+
 ---
 
 ## How to use this folder
