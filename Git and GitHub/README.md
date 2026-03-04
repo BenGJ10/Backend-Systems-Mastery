@@ -39,7 +39,11 @@ This folder contains comprehensive resources and tutorials to help you master Gi
 
 - [**git `revert`** vs **git `reset`** vs **git `restore`**](Other%20Important%20Commands/git%20revert%20vs%20git%20reset%20vs%20git%20restore.md)
 
-### [5. GitHub Fundamentals](GitHub%20Fundamentals/)
+### [5. Git Rebasing](Git%20Rebasing/)
+
+- [**Introduction to Rebasing**](Git%20Rebasing/1.%20Introduction%20to%20Rebasing.md)
+
+### [6. GitHub Fundamentals](GitHub%20Fundamentals/)
 
 - [**Overview of GitHub**](GitHub%20Fundamentals/1.%20Overview%20of%20GitHub.md)
 
