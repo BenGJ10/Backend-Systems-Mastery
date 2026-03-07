@@ -51,6 +51,8 @@ Use this folder to learn the basics of `Linux`, and master the essential command
 
 - [**Key Shell Scripting Concepts**](Shell%20Scripting/Key%20Shell%20Scripting%20Concepts.md)
 
+- [**Aliases** in Linux](Shell%20Scripting/Aliases%20in%20Linux.md)
+
 ---
 
 ## How to use this folder
