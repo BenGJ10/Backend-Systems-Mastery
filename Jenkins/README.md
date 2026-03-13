@@ -16,6 +16,8 @@ In this folder you will find resources to learn the basics of `Jenkins`, includi
 
 - [Jenkins **Workspaces and Artifacts**](Introductory/Workspaces%20and%20Artifacts.md)
 
+- [**Pipelines and Exit Codes**](Introductory/Pipelines%20and%20Exit%20Codes.md) 
+
 ---
 
 ## How to use this folder
