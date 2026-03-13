@@ -14,6 +14,8 @@ In this folder you will find resources to learn the basics of `Jenkins`, includi
 
 - [Understand the **Jenkins Architecture**](Introductory/Jenkins%20Architecture.md)
 
+- [Jenkins **Workspaces and Artifacts**](Introductory/Workspaces%20and%20Artifacts.md)
+
 ---
 
 ## How to use this folder
