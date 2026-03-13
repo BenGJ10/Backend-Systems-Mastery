@@ -8,9 +8,11 @@ In this folder you will find resources to learn the basics of `Jenkins`, includi
 
 ### [1. Introduction to Jenkins](Introductory/)
 
-- [What is **Jenkins?**](Introductory/1.%20What%20is%20Jenkins.md)
+- [What is **Jenkins?**](Introductory/What%20is%20Jenkins.md)
 
 - [What is **Build Automation?**](Introductory/Build%20Automation.md)
+
+- [Understand the **Jenkins Architecture**](Introductory/Jenkins%20Architecture.md)
 
 ---
 
