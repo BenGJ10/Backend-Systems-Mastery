@@ -23,6 +23,8 @@ In this folder you will find resources to learn the basics of `Jenkins`, includi
 
 - [What is **Continuous Integration?**](Continuous%20Integration/What%20is%20Continuous%20Integration.md)
 
+- [**Pipeline as Code** with Jenkins](Continuous%20Integration/Pipeline%20as%20Code.md)
+
 ---
 
 ## How to use this folder
