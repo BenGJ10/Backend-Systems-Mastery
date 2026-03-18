@@ -14,6 +14,8 @@ This folder contains comprehensive resources and tutorials to help you master Gi
 
 - [**Adding** and **Committing Changes**](Git%20Fundamentals/4.%20Adding%20and%20Committing.md)
 
+- [**Real World End-to-End Git Workflow**](Git%20Fundamentals/5.%20Real%20World%20End-to-End%20Git%20Workflow.md)
+
 ### [2. Working with Branches](Working%20with%20Branches/)
 
 - [**Introduction to Branches**](Working%20with%20Branches/1.%20Introduction%20to%20Branches.md)
