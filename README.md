@@ -1,4 +1,4 @@
-# Backend Mastery
+# Backend & DevOps Mastery
 
 A structured learning repository for backend engineering, DevOps fundamentals, and production-ready workflows.
 
