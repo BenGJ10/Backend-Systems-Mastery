@@ -18,6 +18,10 @@ Understanding Kubernetes is essential for modern software development and operat
 
 - [Why **Kubernetes?** The need for **Orchestration**](Introduction/Why%20Kubernetes.md)
 
+### [2. Kubernetes Concepts and YAML](Kubernetes%20Concepts/)
+
+- [Understand **Pods**](Kubernetes%20Concepts/Understand%20Pods.md)
+
 ---
 
 ## How to use this folder
