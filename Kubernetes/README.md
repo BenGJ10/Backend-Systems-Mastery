@@ -24,6 +24,8 @@ Understanding Kubernetes is essential for modern software development and operat
 
 - [**ReplcaSets** and **Controllers**](Kubernetes%20Concepts/ReplicaSets%20and%20Controllers.md)
 
+- [Kubernetes **Deployments**](Kubernetes%20Concepts/Deployments.md)
+
 ---
 
 ## How to use this folder
