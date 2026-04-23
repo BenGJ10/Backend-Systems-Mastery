@@ -26,6 +26,8 @@ Understanding Kubernetes is essential for modern software development and operat
 
 - [Kubernetes **Deployments**](Kubernetes%20Concepts/Deployments.md)
 
+- [Kubernetes **Architecture**](Kubernetes%20Concepts/Kubernetes%20Architecture.md)
+
 - [Kubernetes **Services**](Kubernetes%20Concepts/Services.md)
 
 ---
