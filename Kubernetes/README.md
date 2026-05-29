@@ -20,15 +20,17 @@ Understanding Kubernetes is essential for modern software development and operat
 
 ### [2. Kubernetes Concepts and YAML](Kubernetes%20Concepts/)
 
+- [Kubernetes **Architecture**](Kubernetes%20Concepts/Kubernetes%20Architecture.md)
+
+- [Kubernetes **Components**](Kubernetes%20Concepts/Kubernetes%20Components.md)
+
 - [Understand **Pods**](Kubernetes%20Concepts/Understand%20Pods.md)
 
 - [**ReplicaSets** and **Controllers**](Kubernetes%20Concepts/ReplicaSets%20and%20Controllers.md)
 
-- [Kubernetes **Deployments**](Kubernetes%20Concepts/Deployments.md)
-
-- [Kubernetes **Architecture**](Kubernetes%20Concepts/Kubernetes%20Architecture.md)
-
 - [Kubernetes **Services**](Kubernetes%20Concepts/Services.md)
+
+- [Kubernetes **Deployments**](Kubernetes%20Concepts/Deployments.md)
 
 ---
 
